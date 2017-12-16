@@ -20,7 +20,7 @@ Thanks for the original author again!
 - 新增 Material Dark 代码样式主题
 
 ### About Me
-![微信公众号二维码](http://cdn.ironmaxi.com/images/wechat/qrcode.png =200)
+![微信公众号二维码](http://cdn.ironmaxi.com/images/wechat/qrcode_pure_200.png)
 
 ### LICENSE
 
