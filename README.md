@@ -20,7 +20,7 @@ Thanks for the original author again!
 - 新增 Material Dark 代码样式主题
 
 ### About Me
-![hadestory qrcode](http://cdn.ironmaxi.com/images/wechat/qrcode.png)
+<img src="http://cdn.ironmaxi.com/images/wechat/qrcode.png" alt="hadestory qrcode" />
 
 ### LICENSE
 
