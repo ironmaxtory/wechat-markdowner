@@ -1,4 +1,4 @@
-# Online Markdown Converter
+# Wechat Markdowner Online
 
 A online markdown converter specially for Wechat Public formatting.
 
@@ -9,6 +9,8 @@ A online markdown converter specially for Wechat Public formatting.
 
 - 支持更换代码样式主题
 - 代码长度溢出时横向滚动
+- 支持 Webpack 调试
+- 新增 Material Dark 代码样式主题
 
 ### LICENSE
 
