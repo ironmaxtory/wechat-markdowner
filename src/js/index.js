@@ -13,8 +13,10 @@ require("./showdown-plugins/showdown-footnote.js");
 require("./google-code-prettify/run_prettify.js");
 
 // 准备工作 这样才确保webpack打包的style在前 自定义样式在后 才能起效
-$('head').eq(0).append($('<link rel="stylesheet" href="./themes/github-v2.css" id="codeThemeId" />'));
-$('head').eq(0).append($('<link rel="stylesheet" id="pageThemeId" />'));
+// $('head').eq(0).append($('<link rel="stylesheet" href="./themes/github-v2.css" id="codeThemeId" />'));
+// $('head').eq(0).append($('<link rel="stylesheet" id="pageThemeId" />'));
+$('#codeThemeId').appendTo('head');
+$('#pageThemeId').appendTo('head');
 $('.li-qrcode').on('mouseover', function(){
   $('.qrcode-container').show();
 }).on('mouseleave', function(){
@@ -29,7 +31,7 @@ $('img').each(function(){
   newImg.src = this.src;
 });
 
-
+// 解析浏览中url中的Path 去除无用的参数
 var kv = location.href.split('?')[1];
 kv = kv && kv.split('&') || [];
 var params = {};
@@ -45,16 +47,14 @@ if (/\.ironmaxi\.com$/.test(location.hostname)) {
   document.domain = 'ironmaxi.com';
 }
 
-
+// 实例化markdown语法解析对象
 var converter =  new showdown.Converter({
   extensions: ['prettify', 'tasklist', 'footnote'],
   tables: true
 });
-/**
- * [OnlineMarkdown description]
- * @type {Object}
- */
-var OnlineMarkdown = {
+
+// 实例化微信文章markdown转换器
+var WechatMakdowner = {
   currentState: 'edit',
   init: function() {
     var self = this;
@@ -122,4 +122,5 @@ var OnlineMarkdown = {
   }
 };
 
-OnlineMarkdown.init();
+// 微信文章转换器初始化
+WechatMakdowner.init();

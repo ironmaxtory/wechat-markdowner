@@ -13,11 +13,12 @@ I have just customize the remarkable markdown converter according to my favorite
 Thanks for the original author again!
 
 ### ChangeLog
-
 - 支持更换代码样式主题
 - 代码长度溢出时横向滚动
 - 支持 Webpack 调试
 - 新增 Material Dark 代码样式主题
+- 兼容手机显示
+- Fix初始化页面没有加载样式
 
 ### About Me
 ![微信公众号二维码](http://cdn.ironmaxi.com/images/wechat/qrcode_scan_200.png)
