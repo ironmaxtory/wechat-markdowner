@@ -13,19 +13,25 @@ I have just customize the remarkable markdown converter according to my favorite
 Thanks for the original author again!
 
 ### Getting Started
-Clone the repo and run the local server on your computer:
+Clone the repo and run the local server on your computer.
+clone the repo:
 ```bash
-# clone the repo
-$ git clone git@github.com:ironmaxtory/wechat-markdowner.git
-# enter the local folder
-$ cd ./wechat-markdowner
-# install all dependencies
-$ npm install
-# run the local server
-$ npm run server
+git clone git@github.com:ironmaxtory/wechat-markdowner.git
+```
+enter the local folder:
+```bash
+cd ./wechat-markdowner
+```
+install all dependencies:
+```bash
+npm install
+```
+run the local server:
+```bash
+npm run server
 ```
 
-Distribute you production code:
+Distribute you production code.
 ```bash
 $ npm run build
 ```
