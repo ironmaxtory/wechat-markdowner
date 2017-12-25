@@ -14,6 +14,7 @@ Thanks for the original author again!
 
 ### Getting Started
 Clone the repo and run the local server on your computer.
+
 clone the repo:
 ```bash
 git clone git@github.com:ironmaxtory/wechat-markdowner.git
