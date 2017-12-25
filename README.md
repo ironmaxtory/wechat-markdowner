@@ -32,7 +32,8 @@ run the local server:
 npm run server
 ```
 
-Distribute you production code.
+When you have finished your code and the debug, you can distribute the code.
+distribute you production code:
 ```bash
 $ npm run build
 ```
